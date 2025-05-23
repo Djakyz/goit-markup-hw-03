@@ -198,13 +198,23 @@ address li {
 }
 
 /* BENEFITS SECTION */
+.benefits-section {
+  padding: 120px 0;
+}
 .benefits-list {
   display: flex;
-  padding-top: 96px;
-  padding-bottom: 96px;
-  flex-basis: calc((100%-72px) / 3);
   gap: 24px;
 }
+
+.benefits-list-item {
+flex-basis: calc((100% - 72px) / 4))
+}
+
+.benefits-title {
+  margin-bottom: 8px;
+
+}
+
 /* TEAM SECTION */
 .team-section {
   padding-top: 120px;
@@ -219,12 +229,12 @@ address li {
 .team-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100%-72px) / 3);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
   background-color: var(--background-color);
+  border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4));
 }
 
 .team-title {
