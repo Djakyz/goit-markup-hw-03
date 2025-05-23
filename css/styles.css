@@ -206,7 +206,7 @@ address li {
   gap: 24px;
 }
 
-.benefits-list-item {
+.benefits-item {
 flex-basis: calc((100%-72px)/4);
 }
 
