@@ -77,7 +77,6 @@ h2 {
 /* HEADER STYLES */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
-  margin-bottom: 96px;
 }
 
 .page-header .container {
@@ -213,7 +212,19 @@ flex-basis: calc((100%-72px)/4);
 }
 
 .benefits-title {
-  margin-bottom: 8px;
+margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+
+}
+
+.benefits-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--primary-color);
 
 }
 
