@@ -80,6 +80,10 @@ h2 {
   margin-bottom: 96px;
 }
 
+.page-header .container {
+  display: flex;
+}
+
 .wrapper-top {
   display: flex;
   align-items: center;
@@ -125,6 +129,7 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 76px;
+  align-items: center;
 }
 
 .header-logo {
