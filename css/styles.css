@@ -82,6 +82,7 @@ h2 {
 
 .page-header .container {
   display: flex;
+  justify-content: space-between;
 }
 
 .wrapper-top {
@@ -118,6 +119,7 @@ h2 {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding:  24px 0;
 }
 
 .logo {
