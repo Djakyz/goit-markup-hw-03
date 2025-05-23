@@ -118,7 +118,7 @@ h2 {
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding:  24px 0;
+  padding: 24px 0;
 }
 
 .logo {
@@ -208,24 +208,22 @@ address li {
 }
 
 .benefits-item {
-flex-basis: calc((100%-72px)/4);
+  flex-basis: calc((100%-72px) / 4);
 }
 
 .benefits-title {
-margin-bottom: 8px;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--secondary-color);
-
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 .benefits-text {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--primary-color);
-
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 
 /* TEAM SECTION */
@@ -247,7 +245,7 @@ color: var(--primary-color);
 .team-item {
   background-color: var(--background-color);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4));
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-title {
