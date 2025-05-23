@@ -79,15 +79,16 @@ h2 {
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: 96px;
 }
-.main-manu {
-  display: flex;
-  align-items: center;
-}
 
 .wrapper-top {
   display: flex;
   align-items: center;
   gap: 332px;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
 }
 
 .header-menu-link {
@@ -124,7 +125,6 @@ h2 {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 76px;
-  display: flex;
 }
 
 .header-logo {
@@ -153,14 +153,14 @@ address li {
 /* HERO STYLES */
 .hero {
   background-color: var(--secondary-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -170,6 +170,7 @@ address li {
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -182,6 +183,8 @@ address li {
   cursor: pointer;
   border: none;
   padding: 16px 32px;
+  min-width: 169px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
@@ -204,10 +207,15 @@ address li {
   background-color: var(--light-text-color);
 }
 
+.team-desc-container {
+  padding: 32px 0;
+}
+
 .team-list {
   display: flex;
   gap: 24px;
   flex-basis: calc((100%-72px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item {
@@ -225,9 +233,12 @@ address li {
 }
 
 .team-img {
-  margin-bottom: 32px;
   width: 264px;
   height: 260px;
+}
+
+.team-desc-container {
+  padding: 32px 0;
 }
 
 .team-card-title {
@@ -246,21 +257,19 @@ address li {
   letter-spacing: 0.02em;
   color: var(--primary-color);
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* PORTFOLIO SECTION */
 .portfolio {
-  padding-bottom: 96px;
-  padding-top: 96px;
-}
-.container {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 60px 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 .portfolio-title {
   font-weight: 700;
@@ -269,7 +278,7 @@ address li {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--secondary-color);
-  margin-bottom: 60px;
+  margin-bottom: 72px;
 }
 .portfolio-img {
   width: 360px;
@@ -311,6 +320,18 @@ address li {
 }
 
 .footer-logo {
+  text-transform: uppercase;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-logo-span {
   color: var(--light-text-color);
   margin-bottom: 16px;
 }
